@@ -43,7 +43,8 @@ A CUDA-enabled GPU is required to run the code efficiently.
 ## Training and Evaluation
 
 ### Training
-To train the PromptSL framework, run the `main.py` script. You can specify various hyperparameters using the command line or configuration files. Ensure that the paths to the datasets are correctly set in the `main.py` file.
+To train the PromptSL framework, run the `main.py` script. You can specify various hyperparameters using the command line or configuration files. Ensure that the paths to the datasets are correctly set in the `main.py` file. There is an example of datasets available at [link](https://drive.google.com/drive/folders/1tcxtx69bTsHhCxQUwp5WadV84vVG25Nd?usp=drive_link).
+
 
 Example command:
 ```bash
@@ -58,3 +59,4 @@ Example command:
 python -m src.evaluate 
 ```
 The training results, logs, and saved models, as well as the evaluation results, will be saved in the `./save` folder. Ensure that the paths to the datasets and models are correctly set in the `evaluate.py` file.
+
